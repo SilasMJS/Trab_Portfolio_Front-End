@@ -1,0 +1,238 @@
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #d473d4;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: move 10s linear infinite;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #ff66ff, #6600cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #e7a4e7;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.developer{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    line-height: 1.5;
+    word-spacing: 5px;
+}
+
+.developer img{
+    width: 120px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 2px solid black;
+}
+
+.developer h3 {
+    margin: 0;
+    color: #d473d4;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+    justify-items: center;
+}
+
+.project-item {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.project-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.project-item img:hover {
+    transform: rotate(360deg);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Galeria */
+.galeria{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+
+.projeto{
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.imagem{
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 400px;
+    height: 200px;
+    box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.675);
+    cursor: pointer;
+    max-width: 100%;
+}
+
+.galeria img:hover{
+    width: 435px;
+    height: 225px;
+}
+
+.sobrepor{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.ampliar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+}
+
+/* rodapé */
+
+footer{
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    background-color: #d473d4;
+    display: flex;
+    flex-direction: column;
+}
+
+.contatos{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-flow: row wrap;
+    gap: 1px;
+}
+
+.contato{
+    width: 140px;
+    margin: 5px 0px;
+}
+
+.rede {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -10px 0px;
+
+}
+
+.contato a{
+    width: 180px;
+    text-decoration: none;
+    color: white;
+    margin: 0.2px;
+}
+
+.contato a .rede:hover{
+    font-size: large;
+}
+
+.contato img{
+    width: 25px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.contato h4{
+    font-size: 17px;
+    margin: 5px 0px;
+    margin-bottom: -15px;
+}

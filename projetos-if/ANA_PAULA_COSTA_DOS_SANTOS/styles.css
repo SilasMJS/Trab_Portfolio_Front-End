@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #28a745; /* Cor de fundo suave */
+}
+
+header {
+    background: #003366; /* verde escuro */
+    color: white;
+    padding: 1rem;
+}
+
+header .logo-ifpi {
+    height: 60px; /* Ajuste a altura conforme necessário */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    text-align: center;
+    padding: 50px;
+    background: #e0e0e0; /* Fundo claro para a área de destaque */
+}
+
+section {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.banner img{
+    width: 300px;
+    margin-top: -40px;
+    border-radius: 10px;
+    
+}
+
+h2 {
+    color: #003366; /* Azul escuro */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #003366; /* Azul escuro */
+    color: white;
+    position: relative;
+}
+
+.redes-sociais a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #28a745; /* Verde vibrante */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #218838; /* Verde mais escuro para hover */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #28a745; /* Verde vibrante */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #218838; /* Verde mais escuro para hover */
+}
+
+.imagem-noticia {
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    border-radius: 5px;
+    
+}
